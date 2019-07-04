@@ -1,0 +1,31 @@
+﻿Name,File location
+Movies,movies.csv,0
+Tv-Shows,tvshow.csv,0
+Music,music.csv,0
+Geography,geography.csv,0
+Science,science.csv,0
+Sports,sports.csv,0
+Books,books.csv,0
+Video Games,videogames.csv,0
+70s Music,m70smusic.csv,20
+80s Music,m80smusic.csv,20
+90s Music,m90smusic.csv,20
+00s Music,m00smusic.csv,20
+Rock Music,rockmusic.csv,20
+Pop Music,popmusic.csv,20
+Indie Music,indiemusic.csv,20
+Rap Music,rapmusic.csv,20
+Harry Potter,harrypotter.csv,20
+Rick And Morty,rickandmorty.csv,20
+The Simpsons,thesimpsons.csv,20
+Game Of Thrones,got.csv,20
+Lord Of The Rings,lotr.csv,20
+Star Wars,starwars.csv,20
+Marvel,marvel.csv,20
+DC,dc.csv,20
+Disney Movies,disneymovies.csv,20
+The Office,theoffice.csv,20
+It's Always Sunny In Philadelphia,iasip.csv,20
+Computer Science,computerscience.csv,20
+Brands,brands.csv,20
+Celebrities,celebrities.csv,20

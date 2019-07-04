@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0099cc</color>
+    <color name="colorPrimaryDark">#01579b</color>
+    <color name="colorAccent">#00695c</color>
+    <color name="blueBackground">#0099cc</color>
+    <color name="black_overlay">#66000000</color>
+
+    <!--Material Color Scheme for Question Wall-->
+    <color name="red500">#f44336</color>
+    <color name="pink500">#E91E63</color>
+    <color name="purple500">#9C27B0</color>
+    <color name="deepPurple500">#673AB7</color>
+    <color name="indigo500">#3F51B5</color>
+    <color name="blue500">#2196F3</color>
+    <color name="lightBlue500">#03A9F4</color>
+    <color name="cyan500">#00BCD4</color>
+    <color name="teal500">#009688</color>
+    <color name="green500">#4CAF50</color>
+    <color name="lightGreen500">#8BC34A</color>
+    <color name="amber500">#FFC107</color>
+    <color name="orange500">#FF9800</color>
+    <color name="deepOrange500">#FF5722</color>
+    <color name="grey500">#9e9e9e</color>
+    <color name="blueGrey500">#607D8B</color>
+    <color name="gold">#FFD700</color>
+    <color name="icons_tint_grey">#757575</color>
+    <integer-array name="materialColors">
+        <item>@color/red500</item>
+        <item>@color/pink500</item>
+        <item>@color/purple500</item>
+        <item>@color/deepPurple500</item>
+        <item>@color/indigo500</item>
+        <item>@color/blue500</item>
+        <item>@color/lightBlue500</item>
+        <item>@color/cyan500</item>
+        <item>@color/teal500</item>
+        <item>@color/green500</item>
+        <item>@color/lightGreen500</item>
+        <item>@color/amber500</item>
+        <item>@color/orange500</item>
+        <item>@color/deepOrange500</item>
+        <item>@color/grey500</item>
+        <item>@color/blueGrey500</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "1038462353462",
+    "firebase_url": "https://bottoms-up-59b0d.firebaseio.com",
+    "project_id": "bottoms-up-59b0d",
+    "storage_bucket": "bottoms-up-59b0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038462353462:android:af9b4859cff4dd8b",
+        "android_client_info": {
+          "package_name": "com.mishappstudios.bottomsup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038462353462-k01tg465tg9m940mjhv6hfb67l14bmvm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mishappstudios.bottomsup",
+            "certificate_hash": "ec14fc01ec87e37a70de4306721c218b686c03cc"
+          }
+        },
+        {
+          "client_id": "1038462353462-vdis1m366dhp9ujqb0h4jincaasmta9m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mishappstudios.bottomsup",
+            "certificate_hash": "76b8887399fbb5905b7fc2d6616e762269aeeede"
+          }
+        },
+        {
+          "client_id": "1038462353462-corehg14j1lbns8cbi5criekiofmglhs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mishappstudios.bottomsup",
+            "certificate_hash": "b67f25e908e6212f658078ccdd2ede28dfa29664"
+          }
+        },
+        {
+          "client_id": "1038462353462-qv7vdc2lqp0qqpke2tin3cvhb5s7376q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxbW-d38DSfTYAHCxItpnBpLfXK6TpfJU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038462353462-e67chm7lks6mq9i69n630orbn3q2baq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

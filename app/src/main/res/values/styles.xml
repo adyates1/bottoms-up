@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar" tools:keep="@style/FullscreenActionBarStyle">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" tools:keep="@style/AppTheme_AppBarOverlay" />
+
+    <style name="BottomsUpMainScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/indigo500</item>
+        <item name="android:colorBackground">@color/blueBackground</item>
+    </style>
+
+    <style name="BottomsUpTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/indigo500</item>
+    </style>
+    <style name="Theme.AppCompat.Light.Dialog.NoActionBar" parent="Theme.AppCompat.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog_light" parent="@style/Theme.AppCompat.Light.Dialog.NoActionBar">
+        <item name="android:windowBackground">@color/grey500</item>
+        <item name="android:textColor">@color/black_overlay</item>
+    </style>
+
+    <style name="BottomsUpFont">
+        <item name="android:fontFamily">@font/bungee</item>
+    </style>
+</resources>

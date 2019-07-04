@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:context=".MainActivity"
+    android:keepScreenOn="true"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/bungee_shade"
+        android:includeFontPadding="false"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        app:layout_constrainedHeight="false"
+        app:layout_constraintBottom_toTopOf="@+id/easyBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_max="wrap"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_optimizationLevel="chains" />
+
+    <Button
+        android:id="@+id/easyBtn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/bungee"
+        android:onClick="easyButtonClicked"
+        android:text="@string/easy_difficulty"
+        android:textColor="@color/black_overlay"
+        app:layout_constraintBottom_toTopOf="@+id/mediumBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mediumBtn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/bungee"
+        android:onClick="mediumButtonClicked"
+        android:text="@string/medium_difficulty"
+        android:textColor="@color/black_overlay"
+        app:layout_constraintBottom_toTopOf="@+id/hardBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/hardBtn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/bungee"
+        android:onClick="hardButtonClicked"
+        android:text="@string/hard_difficulty"
+        android:textColor="@color/black_overlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:includeFontPadding="false"
+        android:padding="0dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/main_activity_tagline"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        app:layout_constrainedHeight="false"
+        app:layout_constraintDimensionRatio=""
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_optimizationLevel="chains" />
+
+    <Button
+        android:id="@+id/getCoinsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="220dp"
+        android:background="@drawable/custom_button"
+        android:drawableEnd="@drawable/ic_coins"
+        android:fontFamily="@font/bungee"
+        android:onClick="getCoinsButtonClicked"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="infoButtonClicked"
+        android:tint="@color/icons_tint_grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_info" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="feedbackButtonClicked"
+        android:tint="@color/icons_tint_grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/ic_feedback_black" />
+
+    <ImageView
+        android:id="@+id/cloudSaveButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="startSignInIntent"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:tint="@color/icons_tint_grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/ic_cloud_off" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:tint="@color/icons_tint_grey"
+        app:layout_constraintEnd_toEndOf="@+id/cloudSaveButton"
+        app:layout_constraintTop_toTopOf="@+id/cloudSaveButton"
+        app:srcCompat="@drawable/ic_games_controller" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
